@@ -57,9 +57,19 @@ def agregar_prompt():
 
 def agregar_contract():
     contract_ref.set({
-        "departamento": {
+        "Alquilar Departamento": {
             'content': 
             "El Arrendatario se compromete a pagar al Arrendador la cantidad de 150 000 pesos argentinos en concepto de alquiler mensual. El pago se realizará antes del día 10 de cada mes. El Arrendatario deberá realizar los pagos mediante cheques al Arrendador.El Arrendador se reserva el derecho de aumentar el alquiler mensualmente a partir del 10/11/2023. El incremento será de 10% sobre el monto del alquiler vigente en ese momento. El Arrendador notificará por escrito al Arrendatario con al menos treinta (30) días de anticipación sobre cualquier aumento en el alquiler."
+        },
+
+        "Makers Coding Challenge": {
+            'content':
+            "Para nuestro proceso de selección, buscamos personas que estén dispuestas a enviar software rápidamente y con alta calidad. Es por eso que nuestro proceso de selección se basa en proyectos. Creemos que será una experiencia increíble para usted y estamos entusiasmados con ella. Construir su propia pieza de software es una experiencia emocionante. Significa aportar algo al mundo. Queremos que trabaje en una idea que requiera software, que puede ser suyo o de nuestra lista seleccionada. Si nos permite, al final de este proceso, compartiremos su proyecto en nuestras plataformas de redes sociales. Tenemos algunos requisitos para su proyecto. Debe: obtener datos de una API, tener una base de datos, tener una API para comunicarse con su base de datos, tener una interfaz de usuario simple y una forma de interactuar con ella. Horas de dedicación: 6 - 8 horas en total (depende de usted cuántas horas quiere dedicar). Plazo: una semana (después de recibir el correo electrónico)"
+        },
+
+        "Contrato Profesional":{
+            'content':
+            "El Empleador, Juan Bustos, contrata al Empleado, Matias Caballeros, para desempeñarse en el puesto de Gerente Comercial en Comercial San Andres. El contrato tendrá una duración indefinido, y el Empleado trabajará en jornada completa. A cambio de sus servicios, el Empleado recibirá un salario de 150 000 pesos argentinos pagadero dentro los primeros 10 dias del mes. Ambas partes acuerdan cumplir con las obligaciones establecidas en este contrato y respetar las leyes laborales y regulaciones aplicables."
         }
     })
 
@@ -96,4 +106,4 @@ def extract_contract(contract_tittle):
 
 
 # agregar_prompt()
-# agregar_contract()
+agregar_contract()
