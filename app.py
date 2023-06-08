@@ -1,18 +1,21 @@
 import gradio as gr
 from src.tools import contract_api
 
-
 # Descripción del Header
 title = 'Legal Insight.ai 💼'
-description = '<center><h2><b>Análisis inteligente de contratos 📑💡 </b></h2></center>'
-description += '<center>Simplemente carga el contrato 📂, elige la categoría de análisis y obtén conclusiones detalladas.</center>'
-#description += '<center>Ahorra tiempo ⏱️, toma decisiones informadas y comprende las implicaciones legales de manera eficiente.</center>'
+description = """
+<center><h2><b>Análisis inteligente de contratos 📑💡 </b></h2>
+Simplemente carga el contrato 📂, elige la categoría de análisis y obtén conclusiones detalladas.
+</center>
+"""
 
 # Descripción del Footer
-article = '<b>¿Por qué elegirnos?</b>'
-article += '<br><b>Legal Insight AI</b>, tu aliado inteligente para el análisis de contratos.<br>Simplifica la comprensión legal, toma decisiones informadas y optimiza tu flujo de trabajo.'
-article += '<br>Descubre el poder de la inteligencia artificial aplicada a contratos legales.💡'
-article += "<br><center><b>Mario Bustillo 2023 🚀</b> | [Github](https://github.com/mabustillo14) | [Linkedin](https://www.linkedin.com/in/mario-bustillo/) 🤗</center>"
+article = """
+<b>¿Por qué elegirnos?</b>
+<br><b>Legal Insight AI</b>, tu aliado inteligente para el análisis de contratos.<br>Simplifica la comprensión legal, toma decisiones informadas y optimiza tu flujo de trabajo.
+<br>Descubre el poder de la inteligencia artificial aplicada a contratos legales.💡
+<br><center><b>Mario Bustillo 2023 🚀</b> | [Github](https://github.com/mabustillo14) | [Linkedin](https://www.linkedin.com/in/mario-bustillo/) 🤗</center>
+"""
 
 enable_queue=False
 
