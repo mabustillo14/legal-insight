@@ -1,5 +1,5 @@
 from database import extract_prompt
-
+from ai_model import mychatbot
 
 def contract_api(contrato, checkbox_categorias, pregunta):
 
@@ -30,7 +30,11 @@ def contract_api(contrato, checkbox_categorias, pregunta):
 
     tot_prompt += " Dame un parrafo de maximo " + str(cant_caracteres) + " caracteres." 
 
-    return tot_prompt
+    # Una vez definido los prompts, hacemos la consulta a nuestra base de conocimiento con la api de openAI
+    conclusion = mychatbot(tot_prompt, contrato)
+    print(conclusion)
+
+    return conclusion
     
 
 
