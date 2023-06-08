@@ -106,4 +106,4 @@ def extract_contract(contract_tittle):
 
 
 # agregar_prompt()
-agregar_contract()
+# agregar_contract()
