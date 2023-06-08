@@ -13,7 +13,8 @@ openai.api_key = OPENAI_KEY
 
 
 def mychatbot(query, contract_knowledge):
-    
+    # Chatbot que hace consultas "query" a una base de conocimiento "contract_knowledge"
+
     # Enviar solicitud a la api OpenAI con el modelo "GPT-3.5-turbo"
     res = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
