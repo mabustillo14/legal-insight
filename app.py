@@ -30,6 +30,7 @@ input = [contrato, checkbox_categorias, pregunta]
 conclusiones = gr.Textbox(label="Conclusiones del análisis del Contrato 📝🔍")
 output = [conclusiones]
 
+"""
 # Ejemplos precargados
 def dar_ejemplo():
     with open('src/contrato.txt', 'r') as archivo:
@@ -37,7 +38,7 @@ def dar_ejemplo():
         contrato = archivo.read()
     ejemplo = [[contrato, ["Letra Pequeña"], "¿Cuánto es el aumento mensual?"]]
     return ejemplo
-
+"""
 
 # GUI
 demo = gr.Interface(
@@ -46,8 +47,8 @@ demo = gr.Interface(
     outputs=output,
     title=title,
     description=description, 
-    article=article,
-    examples = dar_ejemplo()
+    article=article
+#    examples = dar_ejemplo()
     )
     
 
