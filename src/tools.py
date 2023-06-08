@@ -1,5 +1,5 @@
-from database import extract_prompt
-from ai_model import mychatbot
+from src.database import extract_prompt
+from src.ai_model import mychatbot
 
 def contract_api(contrato, checkbox_categorias, pregunta):
 
