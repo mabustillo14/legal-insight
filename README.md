@@ -15,11 +15,12 @@ Este proyecto se ha desarrollado utilizando Python 3.0, Gradio, Firebase y ChatG
 # <br>¿Cómo usar el programa? 💻
 Para poder **inicializar el programa** desde la consola debes seguir los siguientes pasos:
 
+0) Instala las dependencias: `pip3 install -r requirements.txt`
 1) Ejecuta desde la terminal el programa **`app.py`**  
-2) Copia la URL y pega en tu navegador, utiliza la interfaz gráfica (GUI).
+2) Copia la URL y pega en tu navegador. Y ya puedes utilizar la interfaz gráfica (GUI).
 <br>
 
-Para **hacer una consulta desde la GUI** debes seguis los siguientes pasos:
+Para **hacer una consulta desde la GUI** debes seguir los siguientes pasos:
 
 1) **Carga el contrato** que deseas analizar.
 2) **Selecciona las categorías** que deseas analizar.
