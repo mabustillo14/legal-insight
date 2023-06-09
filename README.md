@@ -30,7 +30,7 @@ Para **hacer una consulta desde la GUI** debes seguis los siguientes pasos:
 
 Si hiciste bien los pasos, deberias obtener un resultado similar al siguiente:
 
-![captura de pantalla de la ejecución del programa Legal Insight AI](img/captura.jpg)
+![captura de pantalla de la ejecución del programa Legal Insight AI](img/captura.JPG)
 
 # <br>Nuestra API 📩
 
