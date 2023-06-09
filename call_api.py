@@ -17,5 +17,5 @@ data = {
   }
 
 # Hacer petición
-response = requests.post("http://127.0.0.1:7860/run/predict", json=data)
+response = requests.post(SEARCH_URL, json=data)
 print(response.json())
